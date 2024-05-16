@@ -462,42 +462,42 @@
 //////////
 
 
-let countnerSection = document.createElement('section')
-countnerSection.classList.add('counter_section')
-document.body.append(countnerSection)
+// let countnerSection = document.createElement('section')
+// countnerSection.classList.add('counter_section')
+// document.body.append(countnerSection)
 
-countnerSection.insertAdjacentHTML(
-    'afterbegin',
-    `<h1 class="counter_title">Counter</h1>
-    <input type="number" readonly class="counter_number" />
-    <div class="counter_btns_div">
-        <button class="decrease_btn">-</button>
-        <button class="increase_btn">+</button>
-        <button class="reset_btn">Reset</button
-    </div>
-    `
-)
+// countnerSection.insertAdjacentHTML(
+//     'afterbegin',
+//     `<h1 class="counter_title">Counter</h1>
+//     <input type="number" readonly class="counter_number" />
+//     <div class="counter_btns_div">
+//         <button class="decrease_btn">-</button>
+//         <button class="increase_btn">+</button>
+//         <button class="reset_btn">Reset</button
+//     </div>
+//     `
+// )
 
-let counterNumber = document.querySelector('.counter_number')
-counterNumber.value = 0
+// let counterNumber = document.querySelector('.counter_number')
+// counterNumber.value = 0
 
-let decreaseBtn = document.querySelector('.decrease_btn')
-let increaseBtn = document.querySelector('.increase_btn')
-let resetBtn = document.querySelector('.reset_btn')
+// let decreaseBtn = document.querySelector('.decrease_btn')
+// let increaseBtn = document.querySelector('.increase_btn')
+// let resetBtn = document.querySelector('.reset_btn')
 
-let decrement = function() {
-    if(counterNumber.value > 0) counterNumber.value--
-}
+// let decrement = function() {
+//     if(counterNumber.value > 0) counterNumber.value--
+// }
 
-let increment = function() {
-    counterNumber.value++
-}
+// let increment = function() {
+//     counterNumber.value++
+// }
 
-let reset = function() {
-    counterNumber.value = 0
-}
+// let reset = function() {
+//     counterNumber.value = 0
+// }
 
 
-decreaseBtn.addEventListener('click', decrement)
-increaseBtn.addEventListener('click', increment)
-resetBtn.addEventListener('click', reset)
+// decreaseBtn.addEventListener('click', decrement)
+// increaseBtn.addEventListener('click', increment)
+// resetBtn.addEventListener('click', reset)
